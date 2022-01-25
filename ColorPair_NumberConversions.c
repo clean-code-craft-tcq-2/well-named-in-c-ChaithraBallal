@@ -2,7 +2,7 @@
 #include<assert.h>
 
 #include "ColorPair_NumberConversions.h"
-
+#include "main.h"
 /* Functions Name: GetColorFromPairNumber
 *  Declaration: ColorPair GetColorFromPairNumber(int pairNumber) ;
 *  Definition: This function gives the color pair from the given number.
