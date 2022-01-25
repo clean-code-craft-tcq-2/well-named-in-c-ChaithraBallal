@@ -3,12 +3,6 @@
 
 #include "ColorPair_NumberConversions.h"
 
-const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
-const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
-
-int numberOfMajorColors = sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
-int numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
-
 /* Functions Name: GetColorFromPairNumber
 *  Declaration: ColorPair GetColorFromPairNumber(int pairNumber) ;
 *  Definition: This function gives the color pair from the given number.
