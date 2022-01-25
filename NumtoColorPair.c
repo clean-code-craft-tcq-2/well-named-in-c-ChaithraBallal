@@ -4,8 +4,6 @@
 #include "main.h"
 #include "ColorPair_NumberConversions.h"
 
-const int MAX_COLORPAIR_NAME_CHARS = 16;
-
 /*
 * Function Name: testNumberToPair
 * Declaration: void testNumberToPair(int pairNumber, enum MajorColor expectedMajor, enum MinorColor expectedMinor);
