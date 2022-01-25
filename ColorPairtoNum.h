@@ -3,6 +3,6 @@
 
 /*
 * Function Name: testPairtoNumber
-* Declaration: void testPairToNumber(enum MajorColor major, enum MinorColor minor,int expectedPairNumber);
+* Purpose: verifies the number for the given pair of colors
 */
 void testPairToNumber(enum MajorColor major, enum MinorColor minor,int expectedPairNumber);
