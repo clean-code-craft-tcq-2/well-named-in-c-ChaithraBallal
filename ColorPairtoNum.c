@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<assert.h>
 
-#include "ColorPairtoNum.h"
+#include "main.h"
+#include "ColorPair_NumberConversions.h"
 
 /*
 * Function Name: testPairtoNumber
