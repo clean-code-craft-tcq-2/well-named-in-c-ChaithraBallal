@@ -7,7 +7,7 @@ extern int numberOfMajorColors;
 extern int numberOfMinorColors;
 extern const int MAX_COLORPAIR_NAME_CHARS;
 
-void printReferenceManual(void)
+void PrintReferenceManual(void)
 {
   int pairNumber;
   printf("\nReference manual for the Personnel\n");
