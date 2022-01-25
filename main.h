@@ -4,8 +4,9 @@
 #include<stdio.h>
 #include<assert.h>
 
-/*type definitions */
-typedef struct 
+/* type definitions */
+
+typedef struct
 {
     enum MajorColor majorColor;
     enum MinorColor minorColor;
