@@ -2,7 +2,6 @@
 #include<assert.h>
 
 #include "main.h"
-#include "ColorPair_NumberConversions.h"
 
 const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
 const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
