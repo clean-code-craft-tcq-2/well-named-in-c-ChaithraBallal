@@ -3,6 +3,12 @@
 
 #include "NumtoColorPair.h"
 
+/*
+* Function Name: testNumberToPair
+* Declaration: void testNumberToPair(int pairNumber, enum MajorColor expectedMajor, enum MinorColor expectedMinor);
+* This function verifies the color pair for the given number
+*/
+
 void testNumberToPair(int pairNumber, enum MajorColor expectedMajor, enum MinorColor expectedMinor)
 {
     ColorPair colorPair = GetColorFromPairNumber(pairNumber);
