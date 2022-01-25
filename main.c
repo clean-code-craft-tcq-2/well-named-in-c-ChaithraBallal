@@ -4,7 +4,8 @@
 #include "main.h"
 #include "ColorPair_NumberConversions.h"
 
-int main() {
+int main() 
+{
     testNumberToPair(4, WHITE, BROWN);
     testNumberToPair(5, WHITE, SLATE);
 
