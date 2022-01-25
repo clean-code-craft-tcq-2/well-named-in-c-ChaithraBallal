@@ -2,7 +2,7 @@
 #include<assert.h>
 
 #include "main.h"
-#include "ColorPair_NumberConversions.h"
+
 /*
 * Function Name: testPairtoNumber
 * Declaration: void testPairToNumber(enum MajorColor major, enum MinorColor minor,int expectedPairNumber);
