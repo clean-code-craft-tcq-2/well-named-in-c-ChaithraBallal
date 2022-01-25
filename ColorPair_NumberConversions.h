@@ -1,8 +1,6 @@
 #include<stdio.h>
 #include<assert.h>
 
-#include "main.h"
-
 typedef struct 
 {
     enum MajorColor majorColor;
