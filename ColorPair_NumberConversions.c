@@ -3,11 +3,11 @@
 
 #include "ColorPair_NumberConversions.h"
 #include "main.h"
+
 /* Functions Name: GetColorFromPairNumber
 *  Declaration: ColorPair GetColorFromPairNumber(int pairNumber) ;
 *  Definition: This function gives the color pair from the given number.
 */
-
 ColorPair GetColorFromPairNumber(int pairNumber) 
 {
     ColorPair colorPair;
@@ -22,7 +22,6 @@ ColorPair GetColorFromPairNumber(int pairNumber)
 *  Call hierarchy: This function is called from testNumberToPair
 *  Purpose: Prints the colorpair names in string format
 */
-
 void ColorPairToString(const ColorPair* colorPair, char* buffer) 
 {
    sprintf(buffer, "%s %s", MajorColorNames[colorPair->majorColor],MinorColorNames[colorPair->minorColor]);
