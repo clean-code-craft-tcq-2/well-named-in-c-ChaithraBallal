@@ -14,3 +14,9 @@ typedef struct
     enum MajorColor majorColor;
     enum MinorColor minorColor;
 } ColorPair;
+
+/* Function declarations */
+extern ColorPair GetColorFromPairNumber(int pairNumber);
+extern void ColorPairToString(const ColorPair* colorPair, char* buffer);
+extern void ColorPairToString(const ColorPair* colorPair, char* buffer);
+extern int GetPairNumberFromColor(const ColorPair* colorPair);
