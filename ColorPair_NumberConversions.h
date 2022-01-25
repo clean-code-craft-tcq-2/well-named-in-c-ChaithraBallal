@@ -10,8 +10,3 @@ int numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 
-/* Function declarations */
-extern ColorPair GetColorFromPairNumber(int pairNumber);
-extern void ColorPairToString(const ColorPair* colorPair, char* buffer);
-extern void ColorPairToString(const ColorPair* colorPair, char* buffer);
-extern int GetPairNumberFromColor(const ColorPair* colorPair);
