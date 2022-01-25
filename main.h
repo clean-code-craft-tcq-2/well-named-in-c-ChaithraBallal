@@ -22,4 +22,4 @@ extern void testNumberToPair(int pairNumber, enum MajorColor expectedMajor, enum
 extern void testPairToNumber(enum MajorColor major, enum MinorColor minor, int expectedPairNumber);
 extern void printReferenceManual(void);
 
-#endif /* MAIN_H *
+#endif /* MAIN_H */
