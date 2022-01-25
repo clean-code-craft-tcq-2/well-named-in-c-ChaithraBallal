@@ -2,7 +2,6 @@
 #include<assert.h>
 
 #include "main.h"
-#include "ColorPair_NumberConversions.h"
 
 const int MAX_COLORPAIR_NAME_CHARS = 16;
 /*
